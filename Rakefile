@@ -1,4 +1,5 @@
 require 'bundler'
+require 'coveralls/rake/task'
 
 Bundler::GemHelper.install_tasks
 
