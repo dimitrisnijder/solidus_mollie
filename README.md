@@ -1,5 +1,7 @@
 # SolidusMollie
 
+[![Build Status](https://travis-ci.org/peterberkenbosch/solidus_mollie.svg?branch=master)](https://travis-ci.org/peterberkenbosch/solidus_mollie)
+
 Add [Mollie](https://www.mollie.com) payments to your Solidus store.
 
 If you use this free and open source extension, feel free to support the creater and
