@@ -28,3 +28,5 @@ task :test_app do
   ENV['LIB_NAME'] = 'solidus_mollie'
   Rake::Task['extension:test_app'].invoke
 end
+
+Coveralls::RakeTask.new

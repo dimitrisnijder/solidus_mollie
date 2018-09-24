@@ -1,6 +1,9 @@
 # SolidusMollie
 
 [![Build Status](https://travis-ci.org/peterberkenbosch/solidus_mollie.svg?branch=master)](https://travis-ci.org/peterberkenbosch/solidus_mollie)
+[![Coverage Status](https://coveralls.io/repos/github/peterberkenbosch/solidus_mollie/badge.svg?branch=master)](https://coveralls.io/github/peterberkenbosch/solidus_mollie?branch=master)
+[![Maintainability](https://api.codeclimate.com/v1/badges/fc5b1ba92dc21721a72f/maintainability)](https://codeclimate.com/github/peterberkenbosch/solidus_mollie/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/fc5b1ba92dc21721a72f/test_coverage)](https://codeclimate.com/github/peterberkenbosch/solidus_mollie/test_coverage)
 
 Add [Mollie](https://www.mollie.com) payments to your Solidus store.
 

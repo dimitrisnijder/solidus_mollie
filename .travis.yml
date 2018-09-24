@@ -8,6 +8,8 @@ before_script:
   - bundle exec rake test_app
 script:
   - bundle exec rspec spec
+after_script:
+  - bundle exec rake coveralls:push
 env:
   matrix:
     - SOLIDUS_BRANCH=v2.5 DB=postgres

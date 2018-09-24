@@ -31,6 +31,8 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'rubocop', '0.49.0'
   s.add_development_dependency 'rubocop-rspec', '1.4.0'
   s.add_development_dependency 'simplecov'
+  s.add_development_dependency 'simplecov-console'
+  s.add_development_dependency 'coveralls'
   s.add_development_dependency 'sqlite3'
   s.add_development_dependency 'pg'
   s.add_development_dependency 'mysql2'
