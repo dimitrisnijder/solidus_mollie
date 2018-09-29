@@ -78,6 +78,17 @@ RSpec.configure do |config|
   config.before :suite do
     DatabaseCleaner.strategy = :transaction
     DatabaseCleaner.clean_with :truncation
+
+    Spree.config do |c|
+      c.static_model_preferences.add(
+        Spree::PaymentMethod::MolliePayments,
+        "mollie_payments_preferences",
+        api_key: "api-key",
+        test_mode: true
+      )
+    end
+
+    Spree::Core::Engine.routes.default_url_options = { host: "example.com" }
   end
 
   # Before each spec check if it is a Javascript test and switch between using database transactions or not where necessary.
