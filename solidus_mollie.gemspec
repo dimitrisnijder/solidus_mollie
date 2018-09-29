@@ -18,6 +18,7 @@ Gem::Specification.new do |s|
   s.test_files = Dir['test/**/*']
 
   s.add_dependency 'solidus_core', '~> 2.6'
+  s.add_dependency 'solidus_support'
   s.add_dependency 'mollie-api-ruby'
 
   s.add_development_dependency 'capybara'
