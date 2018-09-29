@@ -44,9 +44,6 @@ Performance/Count:
 Style/RaiseArgs:
   Enabled: false
 
-Style/OpMethod:
-  Enabled: false
-
 # We can use good judgement here
 Style/RegexpLiteral:
   Enabled: false
@@ -58,28 +55,28 @@ Style/AsciiComments:
 Lint/EndAlignment:
   Enabled: false
 
-Style/ElseAlignment:
+Layout/ElseAlignment:
   Enabled: false
 
-Style/IndentationWidth:
+Layout/IndentationWidth:
   Enabled: false
 
-Style/AlignParameters:
+Layout/AlignParameters:
   Enabled: false
 
-Style/ClosingParenthesisIndentation:
+Layout/ClosingParenthesisIndentation:
   Enabled: false
 
-Style/MultilineMethodCallIndentation:
+Layout/MultilineMethodCallIndentation:
   Enabled: false
 
-Style/IndentArray:
+Layout/IndentArray:
   Enabled: false
 
-Style/IndentHash:
+Layout/IndentHash:
   Enabled: false
 
-Style/AlignHash:
+Layout/AlignHash:
   Enabled: false
 
 # From http://relaxed.ruby.style/
@@ -100,7 +97,7 @@ Style/Documentation:
   Enabled: false
   StyleGuide: http://relaxed.ruby.style/#styledocumentation
 
-Style/DotPosition:
+Layout/DotPosition:
   Enabled: false
   StyleGuide: http://relaxed.ruby.style/#styledotposition
 
@@ -168,11 +165,11 @@ Style/SingleLineMethods:
   Enabled: false
   StyleGuide: http://relaxed.ruby.style/#stylesinglelinemethods
 
-Style/SpaceBeforeBlockBraces:
+Layout/SpaceBeforeBlockBraces:
   Enabled: false
   StyleGuide: http://relaxed.ruby.style/#stylespacebeforeblockbraces
 
-Style/SpaceInsideParens:
+Layout/SpaceInsideParens:
   Enabled: false
   StyleGuide: http://relaxed.ruby.style/#stylespaceinsideparens
 
@@ -229,3 +226,14 @@ Metrics/ParameterLists:
 
 Metrics/PerceivedComplexity:
   Enabled: false
+
+Bundler/OrderedGems:
+  Enabled: false
+
+Bundler/DuplicatedGem:
+  Enabled: false
+
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/**/*.rb'
+    - '*.gemspec'

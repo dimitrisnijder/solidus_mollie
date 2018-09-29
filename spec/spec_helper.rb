@@ -5,7 +5,7 @@ Coveralls.wear!
 
 SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter.new(
   [
-    SimpleCov::Formatter::Console,
+    SimpleCov::Formatter::Console
   ]
 )
 
