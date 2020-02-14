@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
 
   s.add_dependency 'solidus_core', '~> 2.6'
   s.add_dependency 'solidus_support'
-  s.add_dependency 'mollie-api-ruby'
+  s.add_dependency 'mollie-api-ruby', '4.7.1'
 
   s.add_development_dependency 'capybara'
   s.add_development_dependency 'ffaker'
